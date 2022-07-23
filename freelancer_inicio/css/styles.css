@@ -10,11 +10,14 @@ html{
 }
 body{
     font-size: 16px; /* 1rem = 10px */
+    font-family: 'Montserrat', sans-serif;
+
 }
 .titulo{
     text-align: center;
     font-size: 3.8rem;
+    font-weight: 800;
 }
-.titulo span{
+    .titulo span{
     font-size: 2rem;
 }
