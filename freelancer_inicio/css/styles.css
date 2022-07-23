@@ -21,3 +21,19 @@ body{
     .titulo span{
     font-size: 2rem;
 }
+
+
+.nav-bg{
+    background-color: var(--secundario);
+
+}
+.contenedor{
+    /*------CENTRAR NAVEGADOR------*/
+    width: 120rem;
+    margin: 0 auto 0 auto;
+    /*al ponerle un ancho específico y poner a cada lado un 'auto' se centra*/
+    /*-----------------------------*/
+}
+.navegacion-principal{
+
+}
