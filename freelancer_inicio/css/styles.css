@@ -23,10 +23,6 @@ body{
 }
 
 
-.nav-bg{
-    background-color: var(--secundario);
-
-}
 .contenedor{
     /*------CENTRAR NAVEGADOR------*/
     width: 120rem;
@@ -34,6 +30,22 @@ body{
     /*al ponerle un ancho específico y poner a cada lado un 'auto' se centra*/
     /*-----------------------------*/
 }
-.navegacion-principal{
+.nav-bg{
+    background-color: var(--secundario);
 
+}
+.navegacion-principal {
+    display: flex; /*habilita felxbox*/
+    justify-content: space-between; /*permite mover el contenido horizontalmente*/
+}
+.navegacion-principal a {
+    padding: 1rem;
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.navegacion-principal a:hover{
+    background-color: var(--primario);
+    color: var(--negro);
 }
