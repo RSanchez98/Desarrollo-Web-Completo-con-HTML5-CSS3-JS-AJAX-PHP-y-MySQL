@@ -7,18 +7,31 @@
 }
 html{
     font-size: 62.5%;
+    box-sizing: border-box; /*mejorar box model para que no se sumen tamaño de img + margin*/
+}
+*,*::before, *::after{
+    box-sizing: inherit;
 }
 body{
     font-size: 16px; /* 1rem = 10px */
     font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-size: 3.8rem;
+}
+h2{
+    font-size: 2.8rem;
 
 }
-.titulo{
-    text-align: center;
-    font-size: 3.8rem;
-    font-weight: 800;
+h3{
+    font-size: 1.8rem;
+
 }
-    .titulo span{
+h1, h2, h3{
+    text-align: center;
+}
+
+.titulo span{
     font-size: 2rem;
 }
 
@@ -58,3 +71,26 @@ body{
     color: var(--negro);
 }
 
+.hero{
+    background-image: url(../img/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    position: relative; /*padre SIEMPRE posicion relativa*/
+}
+.contenido-hero{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.589);
+    width: 100%;
+    height: 100%;
+
+    /*---------alinear vertical y horizontal---------*/
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    /*-----------------------------------------------*/
+}
+.contenido-hero h2, .contenido-hero p{
+    color: var(--blanco);
+}
