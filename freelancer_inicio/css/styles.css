@@ -123,3 +123,12 @@ h1, h2, h3{
 .contenido-hero h2, .contenido-hero p{
     color: var(--blanco);
 }
+/*----SERVICIOS----*/
+@media (min-width: 768px) {
+   
+    .servicios{
+        display: grid ;
+        grid-template-columns: 1fr 1fr 1fr; /*== 33.3%*/
+        
+    }
+}
