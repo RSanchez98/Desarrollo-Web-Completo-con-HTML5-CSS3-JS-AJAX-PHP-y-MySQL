@@ -176,6 +176,7 @@ h1, h2, h3{
 }
 .servicio p{
     line-height: 2rem;
+    text-align: center;
 }
 .servicio .iconos{
     height: 15rem;
