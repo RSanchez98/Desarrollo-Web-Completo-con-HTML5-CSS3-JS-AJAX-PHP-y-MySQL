@@ -103,39 +103,41 @@
                     nam. Non sit reiciendis illum.</p>
             </section>
         </div>
-    </main>
+
     
     <section>
         <h2>Contacto</h2>
-        <form action="">
+        <form class="formulario">
             <fieldset>
                 <legend>Contáctanos llenando todos los campos</legend>
+                <div class="contenedor-campos">
+                    <div class="campo">
+                        <label for="">Nombre</label>
+                        <input class="input-text" type="text" placeholder="Nombre" name="" id="">
+                    </div>
+                    <div class="campo">
+                        <label for="">Teléfono</label>
+                        <input class="input-text" type="tel" placeholder="Teléfono" name="" id="">
+                    </div>
+                    <div class="campo">
 
-                <div>
-                    <label for="">Nombre</label>
-                    <input type="text" placeholder="Nombre" name="" id="">
-                </div>
-                <div>
-                    <label for="">Teléfono</label>
-                    <input type="tel" placeholder="Teléfono" name="" id="">
-                </div>
-                <div>
+                        <label for="">Correo</label>
+                        <input class="input-text" type="email" placeholder="Correo" name="" id="">
+                    </div>
+                    <div class="campo">
+                        <label for="">Mensaje</label>
+                        <textarea class="input-text" name="" id="" cols="30" rows="10"></textarea>
+                    </div>
 
-                    <label for="">Correo</label>
-                    <input type="email" placeholder="Correo" name="" id="">
-                </div>
-                <div>
-                    <label for="">Mensaje</label>
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
-                </div>
-                <div>
-                    <input type="submit" value="Enviar">
+                    <div class="alinear-derecha flex">
+                        <input class="boton w-sm-100" type="submit" value="Enviar">
+                    </div>
                 </div>
   
             </fieldset>
         </form>
     </section>
-
+</main>
     <footer>
         <p>Todos los derechos reservados. Rodrigo Sánchez Valle</p>
 
