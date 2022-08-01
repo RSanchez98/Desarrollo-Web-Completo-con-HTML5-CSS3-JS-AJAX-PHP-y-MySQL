@@ -8,7 +8,15 @@
 html{
     font-size: 62.5%;
     box-sizing: border-box; /*mejorar box model para que no se sumen tamaño de img + margin*/
+    scroll-snap-type: y mandatory;
 }
+/*
+.servicios, 
+.navegacion-principal,
+.formulario{
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+}*/
 *,*::before, *::after{
     box-sizing: inherit;
 }
@@ -147,6 +155,8 @@ h1, h2, h3{
     color: var(--blanco);
 }
 /*----SERVICIOS----*/
+
+
 @media (min-width: 768px) {
    
     .servicios{
